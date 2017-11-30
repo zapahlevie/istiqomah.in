@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:text="Nama Ibadah"/>
+
+    <CheckBox
+        android:id="@+id/tercapai_cek"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/tercapai_isi"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:text="0"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/target"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/satuan"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:text="Satuan" />
+
+</LinearLayout>

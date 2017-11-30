@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1abc9c</color>
+    <color name="colorPrimaryDark">#16a085</color>
+    <color name="colorAccent">#3498db</color>
+
+    <color name="theme2ColorPrimary">#f1c40f</color>
+    <color name="theme2ColorPrimaryDark">#f39c12</color>
+    <color name="theme2ColorAccent">#f64c73</color>
+
+    <color name="theme3ColorPrimary">#3498db</color>
+    <color name="theme3ColorPrimaryDark">#2980b9</color>
+    <color name="theme3ColorAccent">#f64c73</color>
+
+    <color name="theme4ColorPrimary">#e74c3c</color>
+    <color name="theme4ColorPrimaryDark">#c0392b</color>
+    <color name="theme4ColorAccent">#f64c73</color>
+
+    <color name="theme5ColorPrimary">#9b59b6</color>
+    <color name="theme5ColorPrimaryDark">#8e44ad</color>
+    <color name="theme5ColorAccent">#f64c73</color>
+
+    <color name="theme6ColorPrimary">#34495e</color>
+    <color name="theme6ColorPrimaryDark">#2c3e50</color>
+    <color name="theme6ColorAccent">#f64c73</color>
+
+    <color name="theme7ColorPrimary">#e67e22</color>
+    <color name="theme7ColorPrimaryDark">#d35400</color>
+    <color name="theme7ColorAccent">#f64c73</color>
+
+    <color name="theme8ColorPrimary">#2ecc71</color>
+    <color name="theme8ColorPrimaryDark">#27ae60</color>
+    <color name="theme8ColorAccent">#f64c73</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#14a895</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#14a895</color>
+    <color name="dot_dark_screen4">#14a895</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#8cf9eb</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#8cf9eb</color>
+    <color name="dot_light_screen4">#8cf9eb</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="btn_color">#009688</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="txt_color">#EEEEEE</color>
+</resources>

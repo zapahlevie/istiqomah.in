@@ -1,0 +1,111 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.theme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme2ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/theme2ColorPrimaryDark</item>
+        <item name="colorAccent">@color/theme2ColorAccent</item>
+    </style>
+
+    <style name="AppTheme.theme3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme3ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/theme3ColorPrimaryDark</item>
+        <item name="colorAccent">@color/theme3ColorAccent</item>
+    </style>
+
+    <style name="AppTheme.theme4" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme4ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/theme4ColorPrimaryDark</item>
+        <item name="colorAccent">@color/theme4ColorAccent</item>
+    </style>
+
+    <style name="AppTheme.theme5" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme5ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/theme5ColorPrimaryDark</item>
+        <item name="colorAccent">@color/theme5ColorAccent</item>
+    </style>
+
+    <style name="AppTheme.theme6" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/theme6ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/theme6ColorPrimaryDark</item>
+        <item name="colorAccent">@color/theme6ColorAccent</item>
+    </style>
+
+    <style name="AppTheme.theme7" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme7ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/theme7ColorPrimaryDark</item>
+        <item name="colorAccent">@color/theme7ColorAccent</item>
+    </style>
+
+    <style name="AppTheme.theme8" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme8ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/theme8ColorPrimaryDark</item>
+        <item name="colorAccent">@color/theme8ColorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="MyButton2" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/theme2ColorPrimaryDark</item>
+        <item name="colorButtonNormal">@color/theme2ColorPrimary</item>
+    </style>
+
+    <style name="MyButton3" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/theme3ColorPrimaryDark</item>
+        <item name="colorButtonNormal">@color/theme3ColorPrimary</item>
+    </style>
+
+    <style name="MyButton4" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/theme4ColorPrimaryDark</item>
+        <item name="colorButtonNormal">@color/theme4ColorPrimary</item>
+    </style>
+
+    <style name="MyButton5" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/theme5ColorPrimaryDark</item>
+        <item name="colorButtonNormal">@color/theme5ColorPrimary</item>
+    </style>
+
+    <style name="MyButton6" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/theme6ColorPrimaryDark</item>
+        <item name="colorButtonNormal">@color/theme6ColorPrimary</item>
+    </style>
+
+    <style name="MyButton7" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/theme7ColorPrimaryDark</item>
+        <item name="colorButtonNormal">@color/theme7ColorPrimary</item>
+    </style>
+
+    <style name="MyButton8" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/theme8ColorPrimaryDark</item>
+        <item name="colorButtonNormal">@color/theme8ColorPrimary</item>
+    </style>
+
+    <style name="HomeButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@android:color/white</item>
+        <item name="colorButtonNormal">@android:color/white</item>
+    </style>
+
+    <style name="DisabledButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@android:color/white</item>
+        <item name="colorButtonNormal">@android:color/white</item>
+    </style>
+
+</resources>

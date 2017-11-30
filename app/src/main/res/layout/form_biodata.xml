@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <EditText
+        android:id="@+id/txt_id"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <EditText
+        android:id="@+id/txt_nama"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Nama"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <RadioGroup
+        android:id="@+id/txt_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/r_wajib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wajib"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/r_sunnah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sunnah" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/r_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Checklist"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/r_isian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Isian" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/txt_target"
+        android:visibility="visible"
+        android:layout_marginBottom="10dp"
+        android:hint="Target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <EditText
+        android:id="@+id/txt_satuan"
+        android:visibility="visible"
+        android:layout_marginBottom="10dp"
+        android:hint="Satuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_ibadah"
+        android:title="@string/title_berita"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_description_black_24dp">
+    </item>
+    <item
+        android:id="@+id/navigation_rapor"
+        android:title="@string/title_rapor"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_assessment_black_24dp">
+    </item>
+    <item
+        android:id="@+id/navigation_beranda"
+        android:title="@string/title_beranda"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp">
+    </item>
+    <item
+        android:id="@+id/navigation_notif"
+        android:title="@string/title_notif"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_access_alarm_black_24dp">
+    </item>
+    <item
+        android:id="@+id/navigation_setting"
+        android:title="@string/title_setting"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_more_horiz_black_24dp">
+    </item>
+
+</menu>

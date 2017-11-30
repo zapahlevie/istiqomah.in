@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Istiqomah.in</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">Amalan</string>
+    <string name="slide_1_desc">Tentukan target amalan harianmu!!</string>
+
+    <string name="slide_2_title">Laporan</string>
+    <string name="slide_2_desc">Pantau dan evaluasi amalan harianmu!</string>
+
+    <string name="slide_3_title">Reminder</string>
+    <string name="slide_3_desc">Atur notifikasi untuk setiap amalan!</string>
+
+    <string name="slide_4_title">Tema</string>
+    <string name="slide_4_desc">Ubah tema sesuai keinginanmu!</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_retype_password">Retype Password</string>
+    <string name="hint_name">Nama Lengkap</string>
+    <string name="hint_group">Group Code (Optional)</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Belum punya akun? Daftar sekarang.</string>
+    <string name="btn_link_to_login">Sudah terdaftar! Login sekarang.</string>
+    <string name="welcome">Selamat datang</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Nama Lengkap</string>
+
+    <string name="title_beranda">Beranda</string>
+    <string name="title_berita">Berita</string>
+    <string name="title_rapor">Rapor</string>
+    <string name="title_setting">Lainnya</string>
+    <string name="title_notif">Notifikasi</string>
+    >
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
